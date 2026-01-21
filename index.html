@@ -3,16 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cotidianus Digitalis - Deine Kryptowährung</title>
+    <title>Cotidianus Digitalis | Institutionelles Krypto-Projekt</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background: #f0f0f0; }
-        h1 { color: #333; }
-        p { font-size: 18px; }
+        :root {
+            --bg-color: #0f172a; /* Tiefes Dunkelblau/Grau */
+            --text-main: #f8fafc;
+            --text-dim: #94a3b8;
+            --accent: #38bdf8; /* Seriöses Hellblau */
+            --border: #1e293b;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 80px 20px;
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif; /* Wirkt wie eine klassische Bank/Zeitung */
+            font-size: 3rem;
+            margin-bottom: 20px;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--text-dim);
+            max-width: 600px;
+            margin: 0 auto 40px auto;
+        }
+
+        .content-section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            border-top: 1px solid var(--border);
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .cta-box {
+            background: #1e293b;
+            padding: 40px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 60px;
+            border: 1px solid #334155;
+        }
+
+        .btn-primary {
+            display: inline-block;
+            background-color: var(--accent);
+            color: #0f172a;
+            padding: 15px 35px;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+        }
+
+        .btn-primary:hover {
+            background-color: #7dd3fc;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            padding: 60px 20px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--text-dim);
+        }
     </style>
 </head>
 <body>
-    <h1>Willkommen bei Cotidianus Digitalis</h1>
-    <p>Unsere innovative Kryptowährung ist bald bereit! Das Whitepaper und mehr Infos folgen in Kürze.</p>
-    <p>Kontakt: deine@email.com</p>
+
+    <header>
+        <h1>Cotidianus Digitalis</h1>
+        <p class="subtitle">Eine technologische Grundlage für digitale Beständigkeit und wertebasierte Krypto-Ökonomie.</p>
+        
+        <div class="cta-box">
+            <p style="margin-bottom: 25px;">Die detaillierte technische Dokumentation und Vision steht kurz vor der Veröffentlichung.</p>
+            <a href="whitepaper.pdf" class="btn-primary" target="_blank">Whitepaper herunterladen (PDF)</a>
+        </div>
+    </header>
+
+    <div class="content-section">
+        <h2>Unsere Philosophie</h2>
+        <p>Cotidianus Digitalis richtet sich an Akteure, die an langfristiger Substanz statt kurzfristiger Spekulation interessiert sind. Unser Fokus liegt auf Transparenz, technologischer Integrität und einem klaren Nutzen für das digitale Ökosystem.</p>
+    </div>
+
+    <div class="content-section">
+        <h2>Status</h2>
+        <p>Aktuelle Phase: Finalisierung des Protokoll-Designs. <br>
+        Das Whitepaper wird in Kürze hier als Download zur Verfügung stehen.</p>
+    </div>
+
+    <footer>
+        &copy; 2026 Cotidianus Digitalis. Alle Rechte vorbehalten.
+    </footer>
+
 </body>
 </html>

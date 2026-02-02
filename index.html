@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #121212;
+            background-color: #0a192f; /* Das ursprüngliche Dunkelblau */
             color: #ffffff;
             display: flex;
             flex-direction: column;
@@ -30,24 +30,34 @@
             color: #bbbbbb;
             max-width: 700px;
         }
+        /* Der Whitepaper-Link ganz unten */
         .whitepaper-link {
             display: inline-block;
-            margin-top: 1.5rem;
+            margin: 40px 0;
             padding: 12px 24px;
             background-color: #1e88e5;
             color: white;
             text-decoration: none;
             border-radius: 5px;
+            font-weight: bold;
             transition: background-color 0.3s;
         }
         .whitepaper-link:hover {
             background-color: #1565c0;
         }
+        /* Abgesetztes Impressum */
+        .footer-separator {
+            width: 100%;
+            max-width: 600px;
+            border-top: 1px solid #334155;
+            margin-top: 50px;
+            padding-top: 20px;
+        }
         .footer {
-            margin-top: 3rem;
-            font-size: 0.9rem;
-            color: #777;
-            line-height: 1.4;
+            font-family: 'Courier New', Courier, monospace; /* Andere Schriftart für das Impressum */
+            font-size: 0.85rem;
+            color: #888;
+            line-height: 1.6;
         }
     </style>
 </head>
@@ -58,18 +68,19 @@
     <p>A currency designed for everyone, everywhere.</p>
     <p>The technical framework and vision are being finalized.</p>
 
-    <div style="margin: 30px 0;">
-        <p>For a detailed presentation of the concept and its roots, as well as its mathematical foundations and practical outlook please view the Whitepaper.</p>
-        <a href="whitepaper.pdf" class="whitepaper-link">Download Whitepaper (PDF)</a>
-    </div>
-
-    <section>
+    <section style="margin-top: 40px;">
         <h2>Our Vision</h2>
         <p>Cotidianus Digitalis is more than just a token. It is a commitment to a transparent, accessible, and fair financial future. We believe that technology should be intuitive and beneficial for everyone—regardless of their technical background.</p>
     </section>
 
+    <div style="margin-top: 20px;">
+        <p style="font-size: 1rem;">For a detailed presentation of the concept and its roots, as well as its mathematical foundations and practical outlook please view the Whitepaper.</p>
+        <a href="https://drive.google.com/open?id=1w_uu1JfuxneOpPlD7CN2W_dFHxc7M3PI" target="_blank" class="whitepaper-link">Open Whitepaper</a>
+    </div>
+
+    <div class="footer-separator"></div>
     <footer class="footer">
-        <p>Legal Notice / Impressum</p>
+        <p>LEGAL NOTICE / IMPRESSUM</p>
         <p>Ludwig Staab | Kriegkstraße 31 | 60326 Frankfurt am Main, Germany</p>
         <p>Contact: cotidianus-digitalis@protonmail.com | Tel.: +49 179 9133395</p>
         <p>&copy; 2026 Cotidianus Digitalis. All Rights Reserved.</p>

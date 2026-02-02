@@ -1,72 +1,78 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cotidianus Digitalis | A Currency for Everyone</title>
     <style>
         body {
-            font-family: sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
             padding: 20px;
-            color: #333;
-        }
-        header {
-            text-align: center;
-            padding: 50px 0;
-        }
-        .whitepaper-box {
-            background-color: #f4f4f4;
-            padding: 20px;
-            border-radius: 8px;
-            margin: 20px 0;
             text-align: center;
         }
-        footer {
-            margin-top: 50px;
-            font-size: 0.9em;
-            border-top: 1px solid #eee;
-            padding-top: 20px;
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+        h2 {
+            font-weight: normal;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #bbbbbb;
+            max-width: 700px;
+        }
+        .whitepaper-link {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 12px 24px;
+            background-color: #1e88e5;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .whitepaper-link:hover {
+            background-color: #1565c0;
+        }
+        .footer {
+            margin-top: 3rem;
+            font-size: 0.9rem;
+            color: #777;
+            line-height: 1.4;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>cotidianus digitalis</h1>
-        <p>Building a sustainable digital economy.</p>
-    </header>
+    <h1>Cotidianus Digitalis</h1>
+    <p>Building a sustainable digital economy.</p>
+    <p>A currency designed for everyone, everywhere.</p>
+    <p>The technical framework and vision are being finalized.</p>
 
-    <section>
-        <p>A cryptocurrency designed for everyone, everywhere.</p>
-        <p>The technical framework and vision are being finalized.</p>
-    </section>
-
-    <div class="whitepaper-box">
+    <div style="margin: 30px 0;">
         <p>For a detailed presentation of the concept and its roots, as well as its mathematical foundations and practical outlook please view the Whitepaper.</p>
-        <a href="whitepaper.pdf" target="_blank">Download Whitepaper (PDF)</a>
+        <a href="whitepaper.pdf" class="whitepaper-link">Download Whitepaper (PDF)</a>
     </div>
 
     <section>
         <h2>Our Vision</h2>
-        <p>cotidianus digitalis is more than just a token. It is a commitment to a transparent, accessible, and fair financial future. We believe that blockchain technology should be intuitive and beneficial for everyone—regardless of their technical background.</p>
+        <p>Cotidianus Digitalis is more than just a token. It is a commitment to a transparent, accessible, and fair financial future. We believe that technology should be intuitive and beneficial for everyone—regardless of their technical background.</p>
     </section>
 
-    <footer>
-        <h3>Legal Notice / Impressum</h3>
-        <p>
-            Ludwig Staab<br>
-            Kriegkstraße 31<br>
-            60326 Frankfurt am Main, Germany
-        </p>
-        <p>
-            Contact:<br>
-            E-Mail: cotidianus-digitalis@protonmail.com<br>
-            Tel.: +49 179 9133395
-        </p>
-        <p>&copy; 2026 cotidianus digitalis. All Rights Reserved.</p>
+    <footer class="footer">
+        <p>Legal Notice / Impressum</p>
+        <p>Ludwig Staab | Kriegkstraße 31 | 60326 Frankfurt am Main, Germany</p>
+        <p>Contact: cotidianus-digitalis@protonmail.com | Tel.: +49 179 9133395</p>
+        <p>&copy; 2026 Cotidianus Digitalis. All Rights Reserved.</p>
     </footer>
 
 </body>

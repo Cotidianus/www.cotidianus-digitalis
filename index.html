@@ -46,7 +46,6 @@
         .whitepaper-link:hover {
             background-color: #1565c0;
         }
-        /* Abgesetztes Impressum */
         .footer-separator {
             width: 100%;
             max-width: 600px;
@@ -55,12 +54,19 @@
             padding-top: 20px;
         }
         .footer {
-            font-family: "Times New Roman", Times, serif; /* Gewünschte Schriftart */
+            font-family: "Times New Roman", Times, serif;
             font-size: 0.9rem;
             color: #a0a0a0;
             line-height: 1.6;
+            max-width: 800px;
         }
-        /* Verhindert das automatische Blau bei Telefonnummern */
+        .disclaimer-box {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 1px solid #334155;
+            border-radius: 4px;
+            background-color: rgba(255, 255, 255, 0.05);
+        }
         .footer a {
             color: inherit !important;
             text-decoration: none !important;
@@ -81,12 +87,18 @@
 
     <div style="margin-top: 20px;">
         <p style="font-size: 1rem;">For a detailed presentation of the concept and its roots, as well as its mathematical foundations and practical outlook please view the Whitepaper.</p>
-        <a href="https://drive.google.com/open?id=1w_uu1JfuxneOpPlD7CN2W_dFHxc7M3PI" target="_blank" class="whitepaper-link">Open Whitepaper</a>
+        <a href="whitepaper.pdf" target="_blank" class="whitepaper-link">Open Whitepaper (PDF)</a>
     </div>
 
     <div class="footer-separator"></div>
+    
     <footer class="footer">
-        <p>LEGAL NOTICE / IMPRESSUM</p>
+        <div class="disclaimer-box">
+            <strong>LEGAL DISCLAIMER:</strong><br>
+            The content on this website and in the whitepaper is for informational purposes only and does not constitute financial, investment, or legal advice. Cotidianus Digitalis is a theoretical cryptographic project and not a financial product. Participation is at your own risk.
+        </div>
+
+        <p><strong>IMPRESSUM</strong></p>
         <p>Ludwig Staab | Kriegkstraße 31 | 60326 Frankfurt am Main, Germany</p>
         <p>Contact: cotidianus-digitalis@protonmail.com | Tel.: <a href="tel:+491799133395">+49 179 9133395</a></p>
         <p>&copy; 2026 Cotidianus Digitalis. All Rights Reserved.</p>
